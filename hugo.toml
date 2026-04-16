@@ -1,0 +1,41 @@
+
+baseURL = "http://localhost"
+title = "The Trendz"
+theme = "PaperMod"
+languageCode = "en-us"
+paginate = 5
+
+[params]
+  author = "The Trendz"
+  description = "Your source for trending news, technology, business & more"
+  showFullContent = false
+  showBreadCrumbs = true
+  showCodeCopyButtons = true
+  showReadingTime = true
+  showShareButtons = true
+  defaultTheme = "auto"
+
+[params.homeInfoParams]
+  Title = "Welcome to The Trendz"
+  Content = "Trending news | Technology | Business ideas | Fashion & Lifestyle"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 2
+
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 3
+
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 4
